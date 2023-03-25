@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_content {
+    display: flex;
+    align-items: center;
+}
+.header_menu {
+    width: 23.55px;
+    height: 23.55px;
+    margin-right: 23.4px;
+    cursor: pointer;
+}
+.header_title {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27.451px;
+    line-height: 27px;
+}
+/* =============> Profile section <================ */
+.profile_content {
+    display: flex;
+    align-items: center;
+}
+.profile_avatar {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+.profile_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+
+    margin: 0 8px 0 14px;
+}
+.profile_details-arrow {
+    margin-bottom: -10px;
+    width: 0;
+    height: 0;
+    border: 6px solid white;
+
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}

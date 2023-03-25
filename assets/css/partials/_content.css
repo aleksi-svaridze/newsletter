@@ -1,0 +1,9 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 28.73px 57px 22px 24px;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 30%;
+}
