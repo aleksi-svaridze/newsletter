@@ -15,8 +15,7 @@
 }
 .header_title {
     color: white;
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: Poppins;
     font-weight: 900;
     font-size: 27.451px;
     line-height: 27px;
@@ -32,13 +31,10 @@
     border-radius: 50%;
 }
 .profile_name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    font-weight: 400;
     color: white;
-
     margin: 0 8px 0 14px;
 }
 .profile_details-arrow {

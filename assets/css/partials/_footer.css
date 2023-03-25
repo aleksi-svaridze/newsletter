@@ -10,18 +10,17 @@
     width: calc(100% - 81px); /* 81 pixels comes from .content class Y direction paddings */
 }
 .footer_copyright {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: white;
 }
-
 .footer_menu {
-
+    display: flex;
+    align-items: center;
 }
 .footer_menu a {
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
