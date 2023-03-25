@@ -6,4 +6,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 30%;
+
+    position: relative;
 }
