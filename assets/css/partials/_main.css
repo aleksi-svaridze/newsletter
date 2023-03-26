@@ -64,19 +64,34 @@
 .form input:focus {
     outline: none;
 }
-.form input[type='text'] {
+.form .text-input {
     border: 2px solid rgba(255, 255, 255, .3);
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     border-radius: 4px 4px 0 0;
 }
-.form input[type='email'] {
+.form .email-input {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     border-left: 2px solid rgba(255, 255, 255, .3);
     border-right: 2px solid rgba(255, 255, 255, .3);
 }
-.form input[type='password'] {
+.form .password-input {
     border-left: 2px solid rgba(255, 255, 255, .3);
     border-right: 2px solid rgba(255, 255, 255, .3);
+}
+.password-icon {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+}
+.hidden-icon {
+    background-image: url(../../images/eye-password-hide-svgrepo-com.svg);
+}
+.visible-icon {
+    background-image: url(../../images/eye-open-svgrepo-com.svg);
 }
 .form .btn {
     display: block;

@@ -32,9 +32,12 @@
                 <section class="main_form-content">
                     <h3 class="form-title">sign up for free</h3>
                     <form class="form">
-                        <input type="text" placeholder="name">
-                        <input type="email" placeholder="E-mail">
-                        <input type="password" placeholder="password">
+                        <input type="text" class="text-input" placeholder="name">
+                        <input type="email" class="email-input" placeholder="E-mail">
+                        <div style="position: relative;">
+                            <input type="password" class="password-input" placeholder="password">
+                            <span class="hidden-icon password-icon" id="toggle"></span>
+                        </div>
                         <button class="btn">
                             Sign up
                             <img src="./assets/images/signup-arrow.svg" alt="" class="btn-arrow">
@@ -71,5 +74,25 @@
             </footer>
 
         </section>
+
+        <script>
+            let togglePassword = document.querySelector('#toggle');
+            let passwordField = document.querySelector('input[type="password"]');
+
+            function togglePasswordIcon(){
+                if(togglePassword.classList.contains('hidden-icon')) {
+                    togglePassword.classList.remove('hidden-icon');
+                    togglePassword.classList.add('visible-icon');
+                    passwordField.type = 'text';
+                } 
+                else {
+                    togglePassword.classList.add('hidden-icon');
+                    togglePassword.classList.remove('visible-icon');
+                    passwordField.type = 'password';
+                }
+            }
+
+            togglePassword.addEventListener('click', togglePasswordIcon);
+        </script>
     </body>
 </html>
